@@ -1,0 +1,6 @@
+@ParentChildsIssueReproduction_HostAddress = http://localhost:5225
+
+GET {{ParentChildsIssueReproduction_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
