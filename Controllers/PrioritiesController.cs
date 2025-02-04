@@ -25,7 +25,7 @@ namespace ParentChildsIssueReproduction.Controllers
             List<PriorityModel> result = [.. cnn.Query<PriorityModel>("dbo.GetPriorities", new { showOnlyTopLevel, showAllLanguages, language })];
 
             // This code doesn't works :(
-
+            //
             //var result = cnn.Query("dbo.GetPriorities", new { showOnlyTopLevel, showAllLanguages, language = "en" },
             //    Query.Returns(Together<PriorityModel, PriorityModel>.Records));
 
